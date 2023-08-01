@@ -49,6 +49,7 @@ window.addEventListener('DOMContentLoaded', event => {
                 navbarToggler.click();
             }
         });
+        return 1;
     });
 
 });
