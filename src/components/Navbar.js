@@ -8,7 +8,7 @@ const Navbar = () => {
     >
       <div className="container">
         <a className="navbar-brand" href="#page-top">
-          Start Bootstrap
+          Kshitij Singh Bisht
         </a>
         <button
           className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
@@ -31,7 +31,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item mx-0 mx-lg-1">
               <a className="nav-link py-3 px-0 px-lg-3 rounded" href="#about">
-                About
+                About Me
               </a>
             </li>
             <li className="nav-item mx-0 mx-lg-1">

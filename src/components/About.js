@@ -2,11 +2,11 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="page-section bg-primary text-white mb-0" id="about">
+    <section className="page-section text-white mb-0" id="about" style={{backgroundColor: "#141416"}}>
       <div className="container">
         {/* <!-- About Section Heading--> */}
-        <h2 className="page-section-heading text-center text-uppercase text-white">
-          About
+        <h2 className="page-section-heading text-center text-uppercase" style={{color: "#b581ff"}}>
+          ABOUT ME
         </h2>
         {/* <!-- Icon Divider--> */}
         <div className="divider-custom divider-light">
@@ -18,31 +18,12 @@ export default function About() {
         </div>
         {/* <!-- About Section Content--> */}
         <div className="row">
-          <div className="col-lg-4 ms-auto">
+          <div className="col-lg-16 ms-auto text-center">
             <p className="lead">
-              Freelancer is a free bootstrap theme created by Start Bootstrap.
-              The download includes the complete source files including HTML,
-              CSS, and JavaScript as well as optional SASS stylesheets for easy
-              customization.
+            Hey there! I'm Kshitij, a Front-end dev hailing ready to conquer the web with my multiway code moves!<br />Pursuing my B.Tech in Computer Science. Crafting stunning web experiences is my jam, and I'm all about making pixels dance to the beat of a groovy user experience.
+            <br />Let's engage and create some web magic! 🚀😎
             </p>
           </div>
-          <div className="col-lg-4 me-auto">
-            <p className="lead">
-              You can create your own custom avatar for the masthead, change the
-              icon in the dividers, and add your email address to the contact
-              form to make it fully functional!
-            </p>
-          </div>
-        </div>
-        {/* <!-- About Section Button--> */}
-        <div className="text-center mt-4">
-          <a
-            className="btn btn-xl btn-outline-light"
-            href="https://startbootstrap.com/theme/freelancer/"
-          >
-            <i className="fas fa-download me-2"></i>
-            Free Download!
-          </a>
         </div>
       </div>
     </section>
