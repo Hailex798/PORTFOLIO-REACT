@@ -35,7 +35,7 @@ export default function Portfolio() {
                 >
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div className="portfolio-item-caption-content text-center text-white">
-                    <i className="fas fa-plus fa-3x"></i>
+                    <i className="fas fa-plus fa-3x" style={{color: "black"}}></i>
                     </div>
                 </div>
                 <img
@@ -54,7 +54,7 @@ export default function Portfolio() {
                 >
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div className="portfolio-item-caption-content text-center text-white">
-                    <i className="fas fa-plus fa-3x"></i>
+                    <i className="fas fa-plus fa-3x" style={{color: "black"}}></i>
                     </div>
                 </div>
                 <img
@@ -73,7 +73,7 @@ export default function Portfolio() {
                 >
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div className="portfolio-item-caption-content text-center text-white">
-                    <i className="fas fa-plus fa-3x"></i>
+                    <i className="fas fa-plus fa-3x" style={{color: "black"}}></i>
                     </div>
                 </div>
                 <img
@@ -92,7 +92,7 @@ export default function Portfolio() {
                 >
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div className="portfolio-item-caption-content text-center text-white">
-                    <i className="fas fa-plus fa-3x"></i>
+                    <i className="fas fa-plus fa-3x" style={{color: "black"}}></i>
                     </div>
                 </div>
                 <img
@@ -111,7 +111,7 @@ export default function Portfolio() {
                 >
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div className="portfolio-item-caption-content text-center text-white">
-                    <i className="fas fa-plus fa-3x"></i>
+                    <i className="fas fa-plus fa-3x" style={{color: "black"}}></i>
                     </div>
                 </div>
                 <img
@@ -130,7 +130,7 @@ export default function Portfolio() {
                 >
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div className="portfolio-item-caption-content text-center text-white">
-                    <i className="fas fa-plus fa-3x"></i>
+                    <i className="fas fa-plus fa-3x" style={{color: "black"}}></i>
                     </div>
                 </div>
                 <img
