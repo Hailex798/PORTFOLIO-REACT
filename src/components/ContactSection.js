@@ -118,7 +118,7 @@ export default function ContactSection() {
                 className="btn btn-primary btn-xl disabled"
                 id="submitButton"
                 type="submit"
-                style={{backgroundColor: "#b581ff", border: "none"}}
+                style={{backgroundColor: "#141416", border: "none"}}
               >
                 Send
               </button>
