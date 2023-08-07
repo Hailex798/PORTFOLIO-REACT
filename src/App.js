@@ -3,7 +3,7 @@ import "./styles.css";
 import "./scripts";
 import Navbar from "./components/Navbar";
 import Masthead from "./components/Masthead";
-import Portfolio from "./components/Portfolio"
+import PortfolioSection from "./components/PortfolioSection"
 import About from "./components/About"
 import ContactSection from "./components/ContactSection"
 import Footer from "./components/Footer"
@@ -14,7 +14,7 @@ const App = () => {
     <div>
       <Navbar />
       <Masthead />
-      <Portfolio />
+      <PortfolioSection />
       <About />
       <ContactSection />
       <Footer />
