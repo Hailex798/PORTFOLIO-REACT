@@ -1,7 +1,7 @@
 import React from "react";
 import imgp1 from "../assets/img/portfolio/to-do.png"
 import imgp2 from "../assets/img/portfolio/cake.png"
-import imgp3 from "../assets/img/portfolio/circus.png"
+import imgp3 from "../assets/img/portfolio/note-it.png"
 import imgp4 from "../assets/img/portfolio/game.png"
 import imgp5 from "../assets/img/portfolio/safe.png"
 import imgp6 from "../assets/img/portfolio/submarine.png"
@@ -66,6 +66,8 @@ export default function PortfolioSection() {
         Experience the synergy of sleek design and seamless functionality as you navigate through tasks with ease.
         Discover a new level of productivity through the Interactive 'Task Manager'"
         head = "Task Manager"
+        link = "kshitijsinghbisht.netlify.app"
+        github = "https://github.com/Hailex798/PORTFOLIO-REACT"
         />
         {/* <!-- Portfolio Modal 2--> */}
         <PortfolioModal 
@@ -78,8 +80,10 @@ export default function PortfolioSection() {
         <PortfolioModal 
         data = "portfolioModal3"
         img = {imgp3}
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
-        head = "Circling Circus"
+        content = "A Efficient Notes App📝 integrated with real time database storage via Firebase Cloud Firestore ready to track all your thoughts with Systematic Creation, Updation & Deletion System."
+        head = "Note it! 📝"
+        link = "https://note-it-firestore.netlify.app/"
+        github = "https://github.com/Hailex798/NOTE-IT"
         />
         {/* <!-- Portfolio Modal 4--> */}
         <PortfolioModal 

@@ -49,11 +49,11 @@ export default function PortfolioModal(props){
                         </p>
                         <div style={{display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column"}}>
                             <div>
-                                <button className="btn btn-primary m-2" onClick={()=>window.open("kshitijsinghbisht.netlify.app")}>
+                                <button className="btn btn-primary m-2" onClick={()=>window.open(props.link)}>
                                     <i className="fas fa-link fa-fw"></i>
                                     Link
                                 </button>
-                                <button className="btn btn-primary m-2" onClick={()=>window.open("https://github.com/Hailex798/PORTFOLIO-REACT")}>
+                                <button className="btn btn-primary m-2" onClick={()=>window.open(props.github)}>
                                     <i className="fas fa-github fa-fw" />
                                     Github
                                 </button>
