@@ -1,8 +1,8 @@
 import React from "react";
 import imgp1 from "../assets/img/portfolio/to-do.png"
-import imgp2 from "../assets/img/portfolio/cake.png"
+import imgp2 from "../assets/img/portfolio/e-commerce.png"
 import imgp3 from "../assets/img/portfolio/note-it.png"
-import imgp4 from "../assets/img/portfolio/game.png"
+import imgp4 from "../assets/img/portfolio/gaming-resale.png"
 import imgp5 from "../assets/img/portfolio/safe.png"
 import imgp6 from "../assets/img/portfolio/submarine.png"
 import Portfolio from "../components/Portfolio"
@@ -61,26 +61,29 @@ export default function PortfolioSection() {
         <PortfolioModal 
         data = "portfolioModal1"
         img = {imgp1}
-        content = "Embark on an organized journey with my Interactive 'Task Manager'. Crafted using HTML, CSS, and React, this project empowers you to effortlessly add, edit, and remove tasks, adapting to your evolving priorities.
-        Harnessing the versatility of React, the project showcases my proficiency in creating interactive and responsive components that enhance usability. The carefully designed user interactions facilitate task modification, fostering a sense of control and efficiency.
-        Experience the synergy of sleek design and seamless functionality as you navigate through tasks with ease.
-        Discover a new level of productivity through the Interactive 'Task Manager'"
+        contentHead = "Task Mastery in React: Seamlessly Manage To-Dos"
+        content = "Embark on task mastery with our React-powered to-do list project. Featuring an elegant and responsive UI. The carefully designed user interactions facilitate task modification, fostering a sense of control and efficiency.
+        Experience the synergy of sleek design and seamless functionality as you navigate through tasks with ease."
         head = "Task Manager"
-        link = "kshitijsinghbisht.netlify.app"
+        link = "https://todo-list-react-practice.netlify.app/"
         github = "https://github.com/Hailex798/PORTFOLIO-REACT"
         />
         {/* <!-- Portfolio Modal 2--> */}
         <PortfolioModal 
         data = "portfolioModal2"
         img = {imgp2}
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
-        head = "Tasty Cake"
+        contentHead = "Experience 'Ssyclr,' where minimalist design meets advanced technology."
+        content = "Enjoy a seamless, real-time shopping journey with efficient search, secure payments, and responsive design. Effortlessly manage your cart and explore interactive product pages, all on a scalable platform that adapts to your needs. Dive into the future of online retail today."
+        head = "E-commerce Clothing Website - Ssyclr"
+        link = "kshitijsinghbisht.netlify.app"
+        github = "https://github.com/Hailex798/PORTFOLIO-REACT"
         />
         {/* <!-- Portfolio Modal 3--> */}
         <PortfolioModal 
         data = "portfolioModal3"
         img = {imgp3}
-        content = "A Efficient Notes App📝 integrated with real time database storage via Firebase Cloud Firestore ready to track all your thoughts with Systematic Creation, Updation & Deletion System."
+        contentHead ="Unleash Productivity: Real-time Notes App📝 with React and Firestore🔥"
+        content = "A Efficient Notes App💻 integrated with real-time Firestore database ensuring instant updates, while the dual editor and preview tab provide clarity in composition. Track all your thoughts with Systematic Creation, Updation & Deletion System."
         head = "Note it! 📝"
         link = "https://note-it-firestore.netlify.app/"
         github = "https://github.com/Hailex798/NOTE-IT"
@@ -89,8 +92,11 @@ export default function PortfolioSection() {
         <PortfolioModal 
         data = "portfolioModal4"
         img = {imgp4}
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
-        head = "Controller"
+        contentHead = "Elevating Gaming Heritage: The Responsive PlayStation Controller Resale Hub."
+        content = "Dive into the gaming time capsule with our meticulously crafted PlayStation controller resale website. Powered by the latest in HTML, CSS, and JavaScript wizardry, this platform ensures unwavering responsiveness across devices. Immerse yourself in the gaming legacy – where every pixel adapts seamlessly to your gaming desires, no matter the screen."
+        head = "Gaming Resale 🎮"
+        link = "https://gaming-resale.netlify.app/"
+        github = "https://github.com/Hailex798/GAMING-RESALE"
         />
         {/* <!-- Portfolio Modal 5--> */}
         <PortfolioModal 

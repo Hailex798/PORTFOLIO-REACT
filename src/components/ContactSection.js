@@ -26,7 +26,7 @@ export default function ContactSection() {
               <!-- To make this form functional, sign up at-->
               <!-- https://startbootstrap.com/solution/contact-forms-->
               <!-- to get an API token!--> */}
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <form id="contactForm" method="POST" action="https://formspree.io/f/xzblgkad" data-sb-form-api-token="API_TOKEN">
               {/* <!-- Name input--> */}
               <div className="form-floating mb-3">
                 <input

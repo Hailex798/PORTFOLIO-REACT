@@ -44,6 +44,7 @@ export default function PortfolioModal(props){
                             alt="..."
                         />
                         {/* <!-- Portfolio Modal - Text--> */}
+                        <h6>{props.contentHead}</h6>
                         <p className="mb-4">
                             {props.content}
                         </p>
