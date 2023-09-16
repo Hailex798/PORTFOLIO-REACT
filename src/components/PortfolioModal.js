@@ -52,16 +52,16 @@ export default function PortfolioModal(props){
                             <div>
                                 <button className="btn btn-primary m-2" onClick={()=>window.open(props.link)}>
                                     <i className="fas fa-link fa-fw"></i>
-                                    Link
+                                    <span class="m-lg-1">Link</span>
                                 </button>
                                 <button className="btn btn-primary m-2" onClick={()=>window.open(props.github)}>
-                                    <i className="fas fa-github fa-fw" />
-                                    Github
+                                    <i class="fa-brands fa-github fa-flip" style={{color: "#ffffff"}} ></i>
+                                     <span class="m-lg-1">Github</span>
                                 </button>
                             </div>
                             <button className="btn btn-primary" data-bs-dismiss="modal">
                                 <i className="fas fa-xmark fa-fw"></i>
-                                Close Window
+                                <span class="m-lg-1">Close Window</span>
                             </button>
                         </div>
                         </div>
