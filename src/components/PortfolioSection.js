@@ -1,10 +1,10 @@
 import React from "react";
-import imgp1 from "../assets/img/portfolio/to-do.png"
+import imgp1 from "../assets/img/portfolio/weatherbuddy.png"
 import imgp2 from "../assets/img/portfolio/e-commerce.png"
 import imgp3 from "../assets/img/portfolio/note-it.png"
 import imgp4 from "../assets/img/portfolio/gaming-resale.png"
-import imgp5 from "../assets/img/portfolio/safe.png"
-import imgp6 from "../assets/img/portfolio/submarine.png"
+import imgp5 from "../assets/img/portfolio/codex.png"
+import imgp6 from "../assets/img/portfolio/to-do.png"
 import Portfolio from "../components/Portfolio"
 import PortfolioModal from "../components/PortfolioModal"
 
@@ -61,12 +61,12 @@ export default function PortfolioSection() {
         <PortfolioModal 
         data = "portfolioModal1"
         img = {imgp1}
-        contentHead = "Task Mastery in React: Seamlessly Manage To-Dos"
-        content = "Embark on task mastery with our React-powered to-do list project. Featuring an elegant and responsive UI. The carefully designed user interactions facilitate task modification, fostering a sense of control and efficiency.
-        Experience the synergy of sleek design and seamless functionality as you navigate through tasks with ease."
-        head = "Task Manager"
-        link = "https://todo-list-react-practice.netlify.app/"
-        github = "https://github.com/Hailex798/PORTFOLIO-REACT"
+        contentHead = "WeatherBuddy: Your chic companion for instant, global weather updates"
+        content = 
+        "WeatherBuddy: Elevating weather tracking with Express, Node.js, and Handlebars partials, this project seamlessly integrates the Weather Open API. Experience real-time updates, stylish design, and precision forecasting—features that redefine your personalized weather experience with sophistication and flair."
+        head = "WeatherBuddy ⛅"
+        link = "https://my-weatherbuddy.netlify.app/"
+        github = "https://github.com/Hailex798/WEATHERBUDDY"
         />
         {/* <!-- Portfolio Modal 2--> */}
         <PortfolioModal 
@@ -75,7 +75,7 @@ export default function PortfolioSection() {
         contentHead = "Experience 'Ssyclr,' where minimalist design meets advanced technology."
         content = "Enjoy a seamless, real-time shopping journey with efficient search, secure payments, and responsive design. Effortlessly manage your cart and explore interactive product pages, all on a scalable platform that adapts to your needs. Dive into the future of online retail today."
         head = "E-commerce Clothing Website - Ssyclr"
-        link = "kshitijsinghbisht.netlify.app"
+        link = "https://ssyclr.netlify.app/"
         github = "https://github.com/Hailex798/PORTFOLIO-REACT"
         />
         {/* <!-- Portfolio Modal 3--> */}
@@ -85,7 +85,7 @@ export default function PortfolioSection() {
         contentHead ="Unleash Productivity: Real-time Notes App📝 with React and Firestore🔥"
         content = "A Efficient Notes App💻 integrated with real-time Firestore database ensuring instant updates, while the dual editor and preview tab provide clarity in composition. Track all your thoughts with Systematic Creation, Updation & Deletion System."
         head = "Note it! 📝"
-        link = "https://note-it-firestore.netlify.app/"
+        link = "https://my-note-it.netlify.app"
         github = "https://github.com/Hailex798/NOTE-IT"
         />
         {/* <!-- Portfolio Modal 4--> */}
@@ -102,15 +102,22 @@ export default function PortfolioSection() {
         <PortfolioModal 
         data = "portfolioModal5"
         img = {imgp5}
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
-        head = "Safe Locker"
+        contentHead = "Codex: Elevating coding mastery through immersive courses"
+        content = "Codex: A super-responsive coding course platform tailored for startups. Crafted with React, Material Tailwind, and Styled Components, it seamlessly combines sophistication with formality, offering an optimal environment for mastering coding skills."
+        head = "Codex: 🧑‍💻 Course Platform"
+        link = "https://cod-ex.netlify.app/"
+        github = "https://github.com/Hailex798/codex"
         />
         {/* <!-- Portfolio Modal 6--> */}
         <PortfolioModal 
         data = "portfolioModal6"
         img = {imgp6}
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam,recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam."
-        head = "Submarine"
+        contentHead = "Task Mastery in React: Seamlessly Manage To-Dos"
+        content = "Embark on task mastery with our React-powered to-do list project. Featuring an elegant and responsive UI. The carefully designed user interactions facilitate task modification, fostering a sense of control and efficiency.
+        Experience the synergy of sleek design and seamless functionality as you navigate through tasks with ease."
+        head = "Task Manager"
+        link = "https://todo-list-react-practice.netlify.app/"
+        github = "https://github.com/Hailex798/TO-DO-LIST"
         />
     </div>
   );

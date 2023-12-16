@@ -17,16 +17,16 @@ const Footer = () => {
           {/* <!-- Footer Social Icons--> */}
           <div className="col-lg-4 mb-5 mb-lg-0">
             <h4 className="text-uppercase mb-4" style={{color: "#141416"}}>Around the Web</h4>
-            <a className="btn btn-outline-light btn-social mx-1" href="https://github.com/Hailex798">
+            <a className="btn btn-outline-light btn-social mx-1" href="https://github.com/Hailex798" target="_blank" rel="noreferrer">
               <i className="fab fa-fw fa-github"></i>
             </a>
-            <a className="btn btn-outline-light btn-social mx-1" href="https://twitter.com/stoickshitij">
+            <a className="btn btn-outline-light btn-social mx-1" href="https://twitter.com/stoickshitij" target="_blank" rel="noreferrer">
               <i className="fab fa-fw fa-twitter"></i>
             </a>
-            <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/kshitijsinghbisht">
+            <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/kshitijsinghbisht" target="_blank" rel="noreferrer">
               <i className="fab fa-fw fa-linkedin-in"></i>
             </a>
-            <a className="btn btn-outline-light btn-social mx-1" href="https://linktr.ee/kshitijsinghbisht">
+            <a className="btn btn-outline-light btn-social mx-1" href="https://linktr.ee/kshitijsinghbisht" target="_blank" rel="noreferrer">
               <i className="fa fa-user"></i>
             </a>
           </div>

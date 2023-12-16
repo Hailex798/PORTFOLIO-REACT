@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function ContactSection() {
+
+  
   return (
     <section className="page-section" id="contact">
       <div className="container">
@@ -19,14 +21,7 @@ export default function ContactSection() {
         {/* <!-- Contact Section Form--> */}
         <div className="row justify-content-center">
           <div className="col-lg-8 col-xl-7">
-            {/* <!-- * * * * * * * * * * * * * * *-->
-              <!-- * * SB Forms Contact Form * *-->
-              <!-- * * * * * * * * * * * * * * *-->
-              <!-- This form is pre-integrated with SB Forms.-->
-              <!-- To make this form functional, sign up at-->
-              <!-- https://startbootstrap.com/solution/contact-forms-->
-              <!-- to get an API token!--> */}
-            <form id="contactForm" method="POST" action="https://formspree.io/f/xzblgkad" data-sb-form-api-token="API_TOKEN">
+            <form id="contactForm" method="POST" action="https://formspree.io/f/mqkvgyye" data-sb-form-api-token="API_TOKEN">
               {/* <!-- Name input--> */}
               <div className="form-floating mb-3">
                 <input
@@ -97,11 +92,6 @@ export default function ContactSection() {
               <div className="d-none" id="submitSuccessMessage">
                 <div className="text-center mb-3">
                   <div className="fw-bolder">Form submission successful!</div>
-                  To activate this form, sign up at
-                  <br />
-                  <a href="https://startbootstrap.com/solution/contact-forms">
-                    https://startbootstrap.com/solution/contact-forms
-                  </a>
                 </div>
               </div>
               {/* <!-- Submit error message-->
