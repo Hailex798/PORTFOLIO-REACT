@@ -85,7 +85,7 @@ export default function PortfolioSection() {
         contentHead ="Unleash Productivity: Real-time Notes App📝 with React and Firestore🔥"
         content = "A Efficient Notes App💻 integrated with real-time Firestore database ensuring instant updates, while the dual editor and preview tab provide clarity in composition. Track all your thoughts with Systematic Creation, Updation & Deletion System."
         head = "Note it! 📝"
-        link = "https://my-note-it.netlify.app"
+        link = "https://hailex.netlify.app"
         github = "https://github.com/Hailex798/NOTE-IT"
         />
         {/* <!-- Portfolio Modal 4--> */}
