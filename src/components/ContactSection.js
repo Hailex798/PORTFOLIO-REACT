@@ -19,7 +19,7 @@ export default function ContactSection() {
           <div className="divider-custom-line"></div>
         </div>
         {/* <!-- Contact Section Form--> */}
-        <div className="row justify-content-center">
+        <div className="row justify-content-center" data-aos="zoom-in" data-aos-duration="1500">
           <div className="col-lg-8 col-xl-7">
             <form id="contactForm" method="POST" action="https://formspree.io/f/mqkvgyye" data-sb-form-api-token="API_TOKEN">
               {/* <!-- Name input--> */}

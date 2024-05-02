@@ -11,7 +11,7 @@ import Copyright from "./components/Copyright";
 
 const App = () => {
   return (
-    <div>
+    <div style={{overflowX: "hidden"}}>
       <Navbar />
       <Masthead />
       <PortfolioSection />

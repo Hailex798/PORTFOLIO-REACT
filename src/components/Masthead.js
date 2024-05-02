@@ -6,12 +6,15 @@ const Masthead = () => {
   return (
     <Wrapper>
       <header className="masthead bg-primary text-white text-center">
-        <div className="container d-flex align-items-center flex-column">
+        <div className="container d-flex align-items-center flex-column" data-aos="fade-up" data-aos-duration="2000">
           {/* <!-- Masthead Avatar Image--> */}
           <img
             className="masthead-avatar mb-5"
             src= {boyFace}
             alt="..."
+            data-aos="zoom-in" 
+            data-aos-duration="1000" 
+            data-aos-offset="100"
           />
           {/* <!-- Masthead Heading--> */}
           <h1 className="masthead-heading text-uppercase mb-0">Kshitij Singh Bisht</h1>
@@ -24,8 +27,8 @@ const Masthead = () => {
             <div className="divider-custom-line"></div>
           </div>
           {/* <!-- Masthead Subheading--> */}
-          <p className="masthead-subheading font-weight-light mb-0" style={{color: "#b581ff"}}>
-            Front-End Developer | Freelancer | Engineer
+          <p className="masthead-subheading font-weight-light mb-0" style={{color: "#b581ff"}} data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="100" data-aos-mirror="true">
+            Freelancer | Front-End Developer | Engineer
           </p>
         </div>
       </header>

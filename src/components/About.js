@@ -17,7 +17,7 @@ export default function About() {
           <div className="divider-custom-line"></div>
         </div>
         {/* <!-- About Section Content--> */}
-        <div className="row">
+        <div className="row" data-aos="zoom-in" data-aos-duration="1000">
           <div className="col-lg-16 ms-auto text-center">
             <p className="lead">
             Hey there! I'm Kshitij, a Front-end dev hailing ready to conquer the web with my multiway code moves!<br />Pursuing my B.Tech in Computer Science. Crafting stunning web experiences is my jam, and I'm all about making pixels dance to the beat of a groovy user experience.

@@ -12,48 +12,66 @@ export default function PortfolioSection() {
   return (
       <div>
         {/* Portfolio Section */}
-        <section className="page-section portfolio" id="portfolio">
-        <div className="container">
-            {/* <!-- Portfolio Section Heading--> */}
-            <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">
-            Portfolio
-            </h2>
-            {/* <!-- Icon Divider--> */}
-            <div className="divider-custom">
-            <div className="divider-custom-line"></div>
-            <div className="divider-custom-icon">
-                <i className="fas fa-star"></i>
-            </div>
-            <div className="divider-custom-line"></div>
-            </div>
-            {/* <!-- Portfolio Grid Items--> */}
-            <div className="row justify-content-center">
-                {/* <!-- Portfolio Item 1--> */}
-                <Portfolio 
-                img= {imgp1}
-                data= "#portfolioModal1"/>
-                {/* <!-- Portfolio Item 2--> */}
-                <Portfolio 
-                img= {imgp2}
-                data= "#portfolioModal2"/>
-                {/* <!-- Portfolio Item 3--> */}
-                <Portfolio 
-                img= {imgp3}
-                data= "#portfolioModal3"/>
-                {/* <!-- Portfolio Item 4--> */}
-                <Portfolio 
-                img= {imgp4}
-                data= "#portfolioModal4"/>
-                {/* <!-- Portfolio Item 5--> */}
-                <Portfolio 
-                img= {imgp5}
-                data= "#portfolioModal5"/>
-                {/* <!-- Portfolio Item 6--> */}
-                <Portfolio 
-                img= {imgp6}
-                data= "#portfolioModal6"/>
-            </div>
-        </div>
+        <section className="page-section portfolio" id="portfolio" >
+          <div className="container">
+              {/* <!-- Portfolio Section Heading--> */}
+              <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">
+              Portfolio
+              </h2>
+              {/* <!-- Icon Divider--> */}
+              <div className="divider-custom">
+              <div className="divider-custom-line"></div>
+              <div className="divider-custom-icon">
+                  <i className="fas fa-star"></i>
+              </div>
+              <div className="divider-custom-line"></div>
+              </div>
+              {/* <!-- Portfolio Grid Items--> */}
+              <div className="row justify-content-center">
+                  {/* <!-- Portfolio Item 1--> */}
+                  <Portfolio 
+                  img= {imgp1}
+                  data= "#portfolioModal1"
+                  anim={"fade-up"}
+                  del={"0"}
+                  dur={"1500"}/>
+                  {/* <!-- Portfolio Item 2--> */}
+                  <Portfolio 
+                  img= {imgp2}
+                  data= "#portfolioModal2"
+                  anim={"fade-up"}
+                  del={"250"}
+                  dur={"1500"}/>
+                  {/* <!-- Portfolio Item 3--> */}
+                  <Portfolio 
+                  img= {imgp3}
+                  data= "#portfolioModal3"
+                  anim={"fade-up"}
+                  del={"500"}
+                  dur={"1500"}/>
+                  {/* <!-- Portfolio Item 4--> */}
+                  <Portfolio 
+                  img= {imgp4}
+                  data= "#portfolioModal4"
+                  anim={"fade-up"}
+                  del={"750"}
+                  dur={"1500"}/>
+                  {/* <!-- Portfolio Item 5--> */}
+                  <Portfolio 
+                  img= {imgp5}
+                  data= "#portfolioModal5"
+                  anim={"fade-up"}
+                  del={"1000"}
+                  dur={"1500"}/>
+                  {/* <!-- Portfolio Item 6--> */}
+                  <Portfolio 
+                  img= {imgp6}
+                  data= "#portfolioModal6"
+                  anim={"fade-up"}
+                  del={"1250"}
+                  dur={"1500"}/>
+              </div>
+          </div>
         </section>
 
         {/* <!-- Portfolio Modals--> */}

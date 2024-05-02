@@ -8,6 +8,7 @@ export default function PortfolioModal(props){
         tabindex="-1"
         aria-labelledby={props.data}
         aria-hidden="true"
+        data-aos={`${props.anim}`}
         >
             <div className="modal-dialog modal-xl">
                 <div className="modal-content">
@@ -42,6 +43,7 @@ export default function PortfolioModal(props){
                             className="img-fluid rounded mb-5"
                             src={props.img}
                             alt="..."
+                            style={{border: "2px solid black", borderRadius: "10px"}}
                         />
                         {/* <!-- Portfolio Modal - Text--> */}
                         <h6>{props.contentHead}</h6>
