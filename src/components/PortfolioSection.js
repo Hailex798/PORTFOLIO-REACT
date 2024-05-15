@@ -83,7 +83,7 @@ export default function PortfolioSection() {
         content = 
         "WeatherBuddy: Elevating weather tracking with Express, Node.js, and Handlebars partials, this project seamlessly integrates the Weather Open API. Experience real-time updates, stylish design, and precision forecasting—features that redefine your personalized weather experience with sophistication and flair."
         head = "WeatherBuddy ⛅"
-        link = "https://my-weatherbuddy.netlify.app/"
+        link = "https://weatherbuddy.onrender.com/"
         github = "https://github.com/Hailex798/WEATHERBUDDY"
         />
         {/* <!-- Portfolio Modal 2--> */}
