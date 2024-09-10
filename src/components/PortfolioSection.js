@@ -94,7 +94,7 @@ export default function PortfolioSection() {
         content = "Enjoy a seamless, real-time shopping journey with efficient search, secure payments, and responsive design. Effortlessly manage your cart and explore interactive product pages, all on a scalable platform that adapts to your needs. Dive into the future of online retail today."
         head = "E-commerce Clothing Website - Ssyclr"
         link = "https://ssyclr.netlify.app/"
-        github = "https://github.com/Hailex798/PORTFOLIO-REACT"
+        github = "https://github.com/Hailex798/SSYCLR_CLOTHING_E-COMMERCE"
         />
         {/* <!-- Portfolio Modal 3--> */}
         <PortfolioModal 

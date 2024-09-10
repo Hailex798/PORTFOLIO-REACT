@@ -1,23 +1,36 @@
 import React from "react";
-import boyFace from "../assets/img/logo4.png"
+import boyFace from "../assets/img/logo4.png";
 import { styled } from "styled-components";
+import { useTypewriter } from "react-simple-typewriter";
 
 const Masthead = () => {
+  const [typeEffect] = useTypewriter({
+    words: ["Software Engineer | Front-End Developer | Freelancer"],
+    loop: {},
+    typespeed: 500,
+    deletespeed: 200
+  });
   return (
     <Wrapper>
       <header className="masthead bg-primary text-white text-center">
-        <div className="container d-flex align-items-center flex-column" data-aos="fade-up" data-aos-duration="2000">
+        <div
+          className="container d-flex align-items-center flex-column"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           {/* <!-- Masthead Avatar Image--> */}
           <img
             className="masthead-avatar mb-5"
-            src= {boyFace}
+            src={boyFace}
             alt="..."
-            data-aos="zoom-in" 
-            data-aos-duration="1000" 
+            data-aos="zoom-in"
+            data-aos-duration="1000"
             data-aos-offset="100"
           />
           {/* <!-- Masthead Heading--> */}
-          <h1 className="masthead-heading text-uppercase mb-0">Kshitij Singh Bisht</h1>
+          <h1 className="masthead-heading text-uppercase mb-0">
+            Kshitij Singh Bisht
+          </h1>
           {/* <!-- Icon Divider--> */}
           <div className="divider-custom divider-light">
             <div className="divider-custom-line"></div>
@@ -27,8 +40,14 @@ const Masthead = () => {
             <div className="divider-custom-line"></div>
           </div>
           {/* <!-- Masthead Subheading--> */}
-          <p className="masthead-subheading font-weight-light mb-0" style={{color: "#b581ff"}} data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="100" data-aos-mirror="true">
-            Freelancer | Front-End Developer | Engineer
+          <p
+            className="masthead-subheading fw-bold mb-0"
+            style={{ color: "#b581ff" }}
+            data-aos="zoom-out"
+            data-aos-duration="1000"
+            data-aos-anchor-placement="top-bottom"
+          >
+            {typeEffect}
           </p>
         </div>
       </header>
@@ -37,7 +56,7 @@ const Masthead = () => {
 };
 
 const Wrapper = styled.section`
-  @keyframes morph{
+  @keyframes morph {
     0% {
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
@@ -48,7 +67,7 @@ const Wrapper = styled.section`
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
   }
-  .masthead-avatar{
+  .masthead-avatar {
     -webkit-animation: morph 8s ease-in-out infinite;
     animation: morph 8s ease-in-out infinite;
     background-position: 50%;
