@@ -4,7 +4,10 @@ import imgp2 from "../assets/img/portfolio/e-commerce.png"
 import imgp3 from "../assets/img/portfolio/note-it.png"
 import imgp4 from "../assets/img/portfolio/gaming-resale.png"
 import imgp5 from "../assets/img/portfolio/codex.png"
-import imgp6 from "../assets/img/portfolio/to-do.png"
+import imgp6 from "../assets/img/portfolio/tesla-clone.png"
+import imgp7 from "../assets/img/portfolio/job-finder.png"
+import imgp8 from "../assets/img/portfolio/tech-term.png"
+import imgp9 from "../assets/img/portfolio/fintech.png"
 import Portfolio from "../components/Portfolio"
 import PortfolioModal from "../components/PortfolioModal"
 
@@ -70,6 +73,27 @@ export default function PortfolioSection() {
                   anim={"fade-up"}
                   del={"1250"}
                   dur={"1500"}/>
+                  {/* <!-- Portfolio Item 7--> */}
+                  <Portfolio 
+                  img= {imgp7}
+                  data= "#portfolioModal7"
+                  anim={"fade-up"}
+                  del={"750"}
+                  dur={"1500"}/>
+                  {/* <!-- Portfolio Item 8--> */}
+                  <Portfolio 
+                  img= {imgp8}
+                  data= "#portfolioModal8"
+                  anim={"fade-up"}
+                  del={"1000"}
+                  dur={"1500"}/>
+                  {/* <!-- Portfolio Item 9--> */}
+                  <Portfolio 
+                  img= {imgp9}
+                  data= "#portfolioModal9"
+                  anim={"fade-up"}
+                  del={"1250"}
+                  dur={"1500"}/>
               </div>
           </div>
         </section>
@@ -130,12 +154,41 @@ export default function PortfolioSection() {
         <PortfolioModal 
         data = "portfolioModal6"
         img = {imgp6}
-        contentHead = "Task Mastery in React: Seamlessly Manage To-Dos"
-        content = "Embark on task mastery with our React-powered to-do list project. Featuring an elegant and responsive UI. The carefully designed user interactions facilitate task modification, fostering a sense of control and efficiency.
-        Experience the synergy of sleek design and seamless functionality as you navigate through tasks with ease."
-        head = "Task Manager"
-        link = "https://todo-list-react-practice.netlify.app/"
-        github = "https://github.com/Hailex798/TO-DO-LIST"
+        contentHead = "Tesla X: A sleek and immersive clone of Tesla's iconic landing page"
+        content = "The Tesla Clone is a responsive website built with React.js, Styled-Components, Redux and Material-UI, replicating Tesla’s sleek design. It features smooth animations using Data-AOS for an engaging user experience."
+        head = "Tesla X"
+        link = "https://teslaindia.vercel.app/"
+        github = "https://github.com/Hailex798/Tesla_Clone-React"
+        />
+        {/* <!-- Portfolio Modal 7--> */}
+        <PortfolioModal 
+        data = "portfolioModal7"
+        img = {imgp7}
+        contentHead = "Connecting talent with opportunity through a seamless and intuitive job portal experience"
+        content = "Job Finder: A robust job portal built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It offers a seamless platform for job seekers and employers, featuring intuitive navigation, real-time updates, and efficient job matching capabilities."
+        head = "💼 Job Finder"
+        link = "https://job-finder-codewave.netlify.app/"
+        github = "https://github.com/Hailex798/JOB_FINDER"
+        />
+        {/* <!-- Portfolio Modal 8--> */}
+        <PortfolioModal 
+        data = "portfolioModal8"
+        img = {imgp8}
+        contentHead = "Hailex: A cutting-edge tech-terminal portfolio showcasing innovation and expertise"
+        content = "Hailex: A dynamic and tech-forward terminal-style portfolio designed for developers. Built with TypeScript, Next.js, and Docker, it merges modern aesthetics with robust performance to showcase innovation and technical expertise."
+        head = "📟 Hailex: Tech-Terminal Portfolio"
+        link = "https://hailex.vercel.app/"
+        github = "https://github.com/Hailex798/Tech-Term-Portfolio"
+        />
+        {/* <!-- Portfolio Modal 9--> */}
+        <PortfolioModal 
+        data = "portfolioModal9"
+        img = {imgp9}
+        contentHead = "Streamlining financial solutions with cutting-edge technology for smarter business growth"
+        content = "FinTech Landing Page: A responsive and modern webpage designed for a finance tech business. Built with HTML, CSS, JavaScript, React.js, Styled-Components, and Tailwind CSS, it combines sleek design with intuitive functionality to deliver a professional user experience."
+        head = "💲FinTech Business"
+        link = "https://fintechbusiness.vercel.app/"
+        github = "https://github.com/Hailex798/FinTech-Business"
         />
     </div>
   );
